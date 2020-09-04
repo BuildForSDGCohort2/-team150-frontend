@@ -1,26 +1,34 @@
 {
-  "name": "fundafric",
-  "version": "1.0.0",
-  "description": "\"site that brings people who are in need of fund to people that are willing to fund and help other\"",
-  "main": "index.js",
+  "name": "team150-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BuildForSDGCohort2/team150-frontend.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "fund",
-    "africa",
-    "one",
-    "commuinity",
-    "buildforsdgteam150"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BuildForSDGCohort2/team150-frontend/issues"
-  },
-  "homepage": "https://github.com/BuildForSDGCohort2/team150-frontend#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
