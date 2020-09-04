@@ -1,0 +1,26 @@
+{
+  "name": "fundafric",
+  "version": "1.0.0",
+  "description": "\"site that brings people who are in need of fund to people that are willing to fund and help other\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildForSDGCohort2/team150-frontend.git"
+  },
+  "keywords": [
+    "fund",
+    "africa",
+    "one",
+    "commuinity",
+    "buildforsdgteam150"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildForSDGCohort2/team150-frontend/issues"
+  },
+  "homepage": "https://github.com/BuildForSDGCohort2/team150-frontend#readme"
+}
