@@ -1,0 +1,15 @@
+.banner{
+    min-height: 70vh;
+    @include flex-center(column);
+    @include image-placeholder;
+    color:#fff;
+    #{&}__text{
+        text-align: center;
+        h1{
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+}

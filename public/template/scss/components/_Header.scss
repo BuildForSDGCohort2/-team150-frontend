@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+    min-height:70px;
+    background: #fff;
+    box-shadow: $shadow;
+    @include flex-btw;
+    padding: 0px 50px;
+    .logo{
+        font-weight: 700;
+    }
+    nav{
+        @include flex-even;
+        font-size: 16px;
+        a{
+            padding: 0 5px;
+            margin: 5px;
+        }
+    }
+    @include media-sm-md{
+         nav{
+             display: none;
+         }
+    }
+}

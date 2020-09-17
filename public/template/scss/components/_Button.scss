@@ -1,0 +1,12 @@
+%btn{
+    display: inline-block;
+    padding:10px 50px;
+    border-radius:17px;
+    border: 2px solid #272722;
+}
+.btn{
+    @extend %btn;
+}
+.btn-ghost{
+    border:2px solid rgba(0,0,0,0.5);
+}
