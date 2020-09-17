@@ -1,0 +1,51 @@
+.info_card{
+    min-height: 100vh;
+    background: #fff;
+    @include flex-center;
+    #{&}__container{
+        display: flex;
+        min-height: 500px;
+        width: 70%;
+        @media (max-width:950px){
+             width:90%;
+        }
+        & > *{
+            min-height: 100%;
+            width: 50%;
+        }   
+    }
+    #{&}__image{
+        @include image-placeholder;
+    }
+    #{&}__text{
+        background: #fff;
+        box-shadow: $shadow;
+        height: 85%;
+        margin-top: 10%;
+        margin-left: -50px;
+        padding:20px;
+        h3{
+            text-align: center;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    @media (max-width:682px){
+        padding: 100px 0;
+        #{&}__container{
+            flex-flow: column;
+            &>*{
+                min-height: 100%;
+                min-width: 100%;
+                text-align: center;
+            }
+        }
+        #{&}__image{
+            height: 300px;
+        }
+        #{&}__text{
+            margin: 0;
+        }
+   }
+}
