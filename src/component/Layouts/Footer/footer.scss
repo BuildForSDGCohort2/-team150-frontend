@@ -1,3 +1,6 @@
+@import "../../../assets/scss/mixin.scss";
+//mixin also imported variables.scss so don't import it when importing mixin
+//only import variable.scss when you are not using mixin
 footer{
     min-height:500px;
     background: rgb(34, 32, 32);

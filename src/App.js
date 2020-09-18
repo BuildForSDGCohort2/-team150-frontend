@@ -1,10 +1,19 @@
 import React from 'react';
-
+import { AppLayout, /*ScrollTop PrivateRoute PublicRoute*/ } from "./component"
+import { Router, Route, Switch } from "react-router-dom";
+import { Home } from "./pages";
+import  { history } from "./helpers"
 function App() {
   return (
-    <div className="App">
-     <h1>Fund Afric Dev branch</h1>
-    </div>
+    <Router history={history}>
+      <AppLayout>
+      <Switch>
+          <Route path="/" exact component={Home} />
+          {/* <PrivateRoute path="/dashboard" component={dashboard} /> */}
+          {/* <Route path="/story" component={Story} /> */}
+        </Switch> 
+      </AppLayout>
+    </Router>
   );
 }
 
