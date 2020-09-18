@@ -1,4 +1,7 @@
-header{
+@import "../../../assets/scss/mixin.scss";
+//mixin also imported variables.scss so don't import it when importing mixin
+//only import variable.scss when you are not using mixin
+.header{
     width: 100%;
     min-height:70px;
     background: #fff;

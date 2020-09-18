@@ -1,0 +1,16 @@
+%btn{
+    display: inline-block;
+    padding:10px 20px !important;
+    border-radius:5px;
+}
+.btn{
+    @extend %btn;
+}
+.btn-ghost{
+    border:2px solid #E0C155;
+}
+.btn-primary{
+    @extend %btn;
+    background-color: #E0C155;
+    color:#fff;
+}
