@@ -321,15 +321,19 @@ header nav a {
   font-size: 13px;
 }
 
-.btn {
+.btn, .btn-primary {
   display: inline-block;
-  padding: 10px 50px;
-  border-radius: 17px;
-  border: 2px solid #272722;
+  padding: 10px 20px !important;
+  border-radius: 5px;
 }
 
 .btn-ghost {
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid #E0C155;
+}
+
+.btn-primary {
+  background-color: #E0C155;
+  color: #fff;
 }
 
 .info_card {
@@ -705,3 +709,4 @@ footer .bottom p {
     text-align: center;
   }
 }
+/*# sourceMappingURL=index.css.map */
