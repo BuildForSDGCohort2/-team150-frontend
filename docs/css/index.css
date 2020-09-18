@@ -378,8 +378,9 @@ header nav a {
   background: #fff;
   -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
           box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
-  height: 85%;
-  margin-top: 10%;
+  min-height: 400px;
+  height: 90%;
+  margin-top: 45px;
   margin-left: -50px;
   padding: 20px;
 }
@@ -417,7 +418,7 @@ header nav a {
 
 .features {
   min-height: 100vh;
-  --largest:500px;
+  --largest:350px;
   --diff:100px;
   background: #efefef;
   display: -webkit-box;
@@ -439,7 +440,7 @@ header nav a {
   background: #fff;
   -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
           box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
-  height: 500px;
+  height: 350px;
   border-radius: 100%;
   padding: 20px;
   text-align: center;
@@ -704,4 +705,3 @@ footer .bottom p {
     text-align: center;
   }
 }
-/*# sourceMappingURL=index.css.map */
